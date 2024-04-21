@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_Annotaion_Priority.Test_Annotaion_Priority_By_Priority_DependsOnMethods"/>
+      <class name="test_Annotaion_Priority.Test_Annotaion_Priority_Dictionary_Order"/>
+      <class name="Tests.Test_Case_01"/>
+      <class name="dataProvider.DataProvider_Test"/>
+      <class name="test_Annotaion_Priority.Test_Annotaion_Priority_By_Priority_DependsOnMethodsMutiplePriroty"/>
+      <class name="test_Annotaion_Priority.Test_Annotaion_Priority_DependsOnMethodsMutiplePriroty_SkipTest"/>
+      <class name="test_Annotaion_Priority.Test_Annotaion_AlwaysRun"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
