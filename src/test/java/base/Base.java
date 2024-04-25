@@ -114,6 +114,7 @@ public class Base {
 	}
 	public static void browserClose() {
 		page.close();
+		System.out.println("TestNG advanced");
 //		browser.close();
 //		playwright.close();
 
